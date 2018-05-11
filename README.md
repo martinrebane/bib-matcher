@@ -1,6 +1,8 @@
 # bib-matcher / Filter your bibliography file
 Compares you .tex file and .bib file and generates a new .bib file keeping only the entries that are used in .tex, optionally filters out bibliography fields. **Filter your .bib file in seconds instead of hours!**
 
+It can be used with any LaTex software and setup. My example: I use it with Zotero and Overleaf. Zotero is synched with Overleaf so that all my bibliography is automatically added to .bib file in Overleaf project. When I finish the project, I run this script and replace the original full Zotero .bib file with the filtered one.
+
 ## Keep only relevant references
 
 In essence, you can use your full bibliography file to write the LaTex document and when you are ready, apply this script which will parse .tex file to find out which entries were actually used. It will then generate a new .bib file containing only those entries. So you do not have to send your whole bibliography to a journal or edit it manually.
