@@ -1,5 +1,5 @@
 # bib-matcher / Filter your bibliography file
-Compares you .tex file and .bib file and generates a new .bib file keeping only the entries that are used in .tex, optionally filters out bibliography fields
+Compares you .tex file and .bib file and generates a new .bib file keeping only the entries that are used in .tex, optionally filters out bibliography fields. **Filter your .bib file in seconds instead of hours!**
 
 ## Keep only relevant references
 
