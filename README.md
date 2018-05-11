@@ -35,5 +35,6 @@ Yes, currently bib-matcher will match citations like those:
 \cite[options]{key}  
 \cite[options]{key1,key2,keyN}  
 ```
-** Can I redistribute or modify this software?**  
+
+**Can I redistribute or modify this software?**  
 Feel free, it is distributed under permissive [MIT licence](https://github.com/martinrebane/bib-matcher/blob/master/LICENCE.txt). You are also very welcome to do pull requests if you just would like to make a contribution to this project.
