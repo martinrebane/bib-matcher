@@ -34,7 +34,7 @@
 	}
 
 	function build_new_bib_file($output_bib_file, $used_bib_items) {
-		file_put_contents($output_bib_file, implode("\n\n@", $used_bib_items));
+		file_put_contents($output_bib_file, '@' . implode("\n\n@", $used_bib_items));
 		echo "Wrote used bibligraphy to: " . $output_bib_file . "\n";
 	}
 
