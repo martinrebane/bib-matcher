@@ -1,5 +1,7 @@
 # bib-matcher / Filter your bibliography file
-Compares you .tex file and .bib file and generates a new .bib file keeping only the entries that are used in .tex, optionally filters out bibliography fields
+Compares you .tex file and .bib file and generates a new .bib file keeping only the entries that are used in .tex, optionally filters out bibliography fields. **Filter your .bib file in seconds instead of hours!**
+
+It can be used with any LaTex software and setup. My example: I use it with Zotero and Overleaf. Zotero is synched with Overleaf so that all my bibliography is automatically added to .bib file in Overleaf project. When I finish the project, I run this script and replace the original full Zotero .bib file with the filtered one.
 
 ## Keep only relevant references
 
@@ -35,5 +37,6 @@ Yes, currently bib-matcher will match citations like those:
 \cite[options]{key}  
 \cite[options]{key1,key2,keyN}  
 ```
-** Can I redistribute or modify this software?**  
+
+**Can I redistribute or modify this software?**  
 Feel free, it is distributed under permissive [MIT licence](https://github.com/martinrebane/bib-matcher/blob/master/LICENCE.txt). You are also very welcome to do pull requests if you just would like to make a contribution to this project.
