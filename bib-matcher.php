@@ -114,6 +114,7 @@
 			$key_part = substr($value, 2 + strlen($citation_tag), -1);
 			// split keys by comma in case there are several
 			$keys = explode(",", $key_part);
+			$keys = array_map('trim', $keys);
 
 			$cit_keys = array_merge($cit_keys, $keys);
 		}
